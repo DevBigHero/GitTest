@@ -30,6 +30,8 @@ public class PhoneTextWatcher implements TextWatcher {
         if (sb.toString().equals(s.toString())) {
             return;
         }
+
+
         sb.delete(0, sb.length());
         String text = s.toString().replace(" ", "");
         for (int i = 0; i < text.length(); i++) {
