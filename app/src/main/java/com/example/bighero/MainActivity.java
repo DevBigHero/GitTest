@@ -21,5 +21,6 @@ public class MainActivity extends AppCompatActivity {
         et = (EditText) findViewById(R.id.et_text);
         et.addTextChangedListener(new PhoneTextWatcher(et));
 
+        
     }
 }
