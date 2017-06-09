@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         et = (EditText) findViewById(R.id.et_text);
         et.addTextChangedListener(new PhoneTextWatcher(et));
+        //测试大阿凡达啊安抚
 
+        
     }
 }
