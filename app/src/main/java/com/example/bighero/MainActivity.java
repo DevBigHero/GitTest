@@ -22,5 +22,6 @@ public class MainActivity extends AppCompatActivity {
         et.addTextChangedListener(new PhoneTextWatcher(et));
         //测试大阿凡达啊安抚
 
+        
     }
 }
