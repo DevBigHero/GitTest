@@ -11,17 +11,24 @@ import android.util.Log;
 import android.widget.EditText;
 
 import com.example.bighero.provider.ProviderContract;
+import com.example.bighero.realm.Dog;
+import com.example.bighero.realm.RealmHelper;
+
+import java.util.List;
+
+import io.realm.Realm;
+import io.realm.RealmAsyncTask;
+import io.realm.RealmChangeListener;
+import io.realm.RealmResults;
 
 public class MainActivity extends AppCompatActivity {
-    EditText et;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        et = (EditText) findViewById(R.id.et_text);
-        et.addTextChangedListener(new PhoneTextWatcher(et));
-        //测试大阿凡达啊安抚
 
-        
     }
 }

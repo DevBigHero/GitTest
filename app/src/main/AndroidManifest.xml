@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.bighero">
-    <permission android:name="com.example.bighero.READ"
-        android:protectionLevel="normal"/>
-    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <permission
+        android:name="com.example.bighero.READ"
+        android:protectionLevel="normal" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
+        android:name=".app.AppApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -20,10 +23,10 @@
             </intent-filter>
         </activity>
         <provider
-            android:authorities="com.example.bighero.provider"
             android:name=".provider.ProviderUser"
-            android:permission="com.example.bighero.READ"
-            android:exported="true"/>
+            android:authorities="com.example.bighero.provider"
+            android:exported="true"
+            android:permission="com.example.bighero.READ" />
     </application>
 
 </manifest>

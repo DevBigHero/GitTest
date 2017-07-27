@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="bsdiff-util-1.7.11">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-all/55gk2rcmfc6p2dg9u9ohc3hw9/gradle-3.3/caches/modules-2/files-2.1/com.tencent.tinker/bsdiff-util/1.7.11/8b125e9b3fe269bb1013b101ac9f82723eab359a/bsdiff-util-1.7.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-all/55gk2rcmfc6p2dg9u9ohc3hw9/gradle-3.3/caches/modules-2/files-2.1/com.tencent.tinker/bsdiff-util/1.7.11/a8e26f0a43439ffefe509b365e44e995f299aab2/bsdiff-util-1.7.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
