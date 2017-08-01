@@ -5,6 +5,7 @@
     <permission
         android:name="com.example.bighero.READ"
         android:protectionLevel="normal" />
+
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
@@ -15,18 +16,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".js.JsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <provider
             android:name=".provider.ProviderUser"
             android:authorities="com.example.bighero.provider"
             android:exported="true"
             android:permission="com.example.bighero.READ" />
+
+
     </application>
 
 </manifest>

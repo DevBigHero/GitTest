@@ -1,4 +1,4 @@
-package com.example.bighero;
+package com.example.bighero.activity;
 
 import android.content.ContentValues;
 import android.content.IntentFilter;
@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.EditText;
 
+import com.example.bighero.R;
 import com.example.bighero.provider.ProviderContract;
 import com.example.bighero.realm.Dog;
 import com.example.bighero.realm.RealmHelper;
