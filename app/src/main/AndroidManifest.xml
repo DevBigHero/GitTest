@@ -16,7 +16,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".js.JsActivity">
+        <activity android:name=".toolbar.ToolBarActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,7 +29,6 @@
             android:authorities="com.example.bighero.provider"
             android:exported="true"
             android:permission="com.example.bighero.READ" />
-
 
     </application>
 
