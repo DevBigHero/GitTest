@@ -9,7 +9,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6a52c69-8807-4d8c-b72b-02493460a4ab" name="Default" comment="" />
+    <list default="true" id="c6a52c69-8807-4d8c-b72b-02493460a4ab" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/bighero/BaseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bighero/BaseActivity.java" />
+    </list>
     <list id="aaa20b58-e2c5-4589-a6c2-7eac5dee1b0f" name="New changelist" comment="" />
     <ignored path="GitTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +52,8 @@
       <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bighero/BaseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="399">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2775,8 +2777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bighero/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="399">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
